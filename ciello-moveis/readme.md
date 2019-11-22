@@ -1,5 +1,5 @@
 # E-commerce, desenvolvido em Wordpress
 
-### Link: [go](http://ciello.com.br/){:target="_blank" rel="noopener"}
+### Link: [go](http://ciello.com.br/){:target="_blank"}
 
 ![WebView](view.png)
