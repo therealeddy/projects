@@ -1,4 +1,4 @@
-# Single Page desenvolvido em Wordpress
+# Single Page, desenvolvido em Wordpress
 
 ### Link: http://www.wallofdeathbr.com.br/
 

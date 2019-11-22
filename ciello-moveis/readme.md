@@ -1,4 +1,4 @@
-# E-commerce desenvolvido em Wordpress
+# E-commerce, desenvolvido em Wordpress
 
 ### Link: http://ciello.com.br/
 
