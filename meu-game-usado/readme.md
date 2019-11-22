@@ -1,5 +1,5 @@
 # Sistema de troca e venda de jogos usados, desenvolvido em ReactJS
 
-### Link: [go](https://cotacoes.meugameusado.com.br/){:target="_blank" rel="noopener"}
+### Link: https://cotacoes.meugameusado.com.br/
 
 ![WebView](view.png)
