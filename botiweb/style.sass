@@ -1,0 +1,366 @@
+@import "variaveis"
+@import "mixins"
+@import "flex"
+
+#materia-mts-cartao-presente
+    width: 100%
+    background-color: $white
+    font-family: $primary
+    -webkit-font-smoothing: antialiased
+
+    // <<-------------------->> BANNER <<-------------------->>
+    .banner-caixa
+        width: 100%
+        background-image: url('../img/back1.png')
+        background-position: center
+        background-size: cover
+        .content-01
+            position: relative
+            width: 100%
+            .cartao-pres
+                z-index: 10
+                @media(max-width: $xl)
+                    width: 300px
+                @media(max-width: $lg)
+                    width: 270px
+                @media(max-width: $md)
+                    width: 350px
+                    margin-top: 60px
+                    margin-bottom: 90px
+                @media(max-width: 400px)
+                    width: 280px
+            .cartao
+                z-index: 1
+                margin-left: -70px
+                @media(max-width: $xl)
+                    width: 500px
+                    margin-left: -20px
+                @media(max-width: $lg)
+                    width: 470px
+                @media(max-width: $md)
+                    display: none
+            .arrow-back
+                position: absolute
+                bottom: 0
+                left: 50%
+                margin-left: -10px
+        .content-02
+            width: 100%
+            margin-top: 50px
+            position: relative
+            padding: 50px 200px 100px
+            @media(max-width: $lg)
+                padding: 50px 0 100px
+            p
+                font-size: calculateRem(38px)
+                color: $white
+                line-height: 40px
+                text-transform: uppercase
+                font-weight: 600
+                @media(max-width: $xl)
+                    font-size: calculateRem(35px)
+                    line-height: 30px
+                @media(max-width: $md)
+                   text-align: center
+                   margin-bottom: 30px
+                   padding: 0 100px
+                @media(max-width: $sm)
+                   text-align: center
+                   margin-bottom: 30px
+                   padding: 0 20px
+            .icon-gold
+                width: 100%
+                text-align: center
+                height: 120px
+                @media(max-width: $md)
+                   margin-bottom: 35px
+            &:before
+                content: ""
+                position: absolute
+                top: 0
+                width: 85%
+                height: 2px
+                background-color: $yellow
+                opacity: 0.3
+    
+    // <<-------------------->> BLOCO INFORMATIVO <<-------------------->>
+    .bloco-informativo
+        background-color: $green
+        width: 100%
+        margin-top: -50px
+        margin-bottom: 100px
+        border-radius: 5px
+        padding: 50px 250px
+        position: relative
+        @media(max-width: $lg)
+            padding-right: 150px
+        @media(max-width: $md)
+            padding: 50px 130px
+        @media(max-width: $sm)
+            padding: 50px 30px
+        .flor1,.flor2,.prod1,.prod2,.prod3
+            position: absolute
+            @media(max-width: $sm)
+                display: none
+        .flor1
+            bottom: 0
+            right: 100px
+            @media(max-width: $lg)
+                display: none
+        .flor2
+            bottom: 40px
+            left: 0
+            @media(max-width: $md)
+                display: none
+        .prod1
+            top: 30px
+            left: -30px
+            @media(max-width: $md)
+                width: 100px
+                left: 10px
+        .prod2
+            top: -15px
+            right: -30px
+            width: 170px
+            @media(max-width: $md)
+                right: 10px
+                width: 130px
+        .prod3
+            bottom: -20px
+            right: 50px
+            width: 160px
+            @media(max-width: $lg)
+                right: 10px
+            @media(max-width: $md)
+                width: 130px
+        p
+            font-size: calculateRem(30px)
+            color: $white
+            margin-bottom: 40px
+        .desconto
+            @media(max-width: 400px)
+                width: 230px
+    
+    // <<-------------------->> GUIA <<-------------------->>
+    .guia
+        margin-bottom: 30px
+        .apre
+            width: 100%
+            text-align: center
+            margin-bottom: 50px
+            .title
+                font-size: calculateRem(50px)
+                color: $green
+                font-weight: 300
+                margin: 0
+            .sub
+                font-size: calculateRem(30px)
+                font-weight: 300
+                color: $grey
+        .item
+            padding: 50px 0
+            position: relative
+            .icon-guia-doidao
+                width: 100%
+                text-align: center
+                padding: 100px 0
+                @media(max-width: $lg)
+                    padding: 0
+                img
+                    @media(max-width: $lg)
+                        width: 90%
+                    @media(max-width: $md)
+                        width: 300px
+                        margin-bottom: 50px
+                    @media(max-width: $sm)
+                        width: 250px
+            .texts
+                padding-right: 120px
+                margin-top: 60px
+                @media(max-width: $lg)
+                    padding-right: 50px
+                @media(max-width: $md)
+                    padding: 0 100px
+                @media(max-width: $sm)
+                    padding: 0 40px
+                @media(max-width: 400px)
+                    padding: 0 10px
+                &:nth-child(1)
+                    margin-top: 0
+                .title
+                    text-transform: uppercase
+                    color: $pink
+                    font-weight: 600
+                    font-size: calculateRem(45px)
+                    line-height: 35px
+                    @media(max-width: $sm)
+                        font-size: calculateRem(35px)
+                        line-height: 30px
+                .info
+                    color: $grey
+                    font-size: calculateRem(25px)
+
+    // <<-------------------->> BLOCOS <<-------------------->>
+    .blocos
+        .block-01,.block-03
+            width: 100%
+            padding: 50px 0
+            background-image: url('../img/back1.png')
+            background-size: 125%
+            background-position: center
+            border-radius: 10px
+            position: relative
+            @media(max-width: $xl)
+                background-size: cover
+            a
+                color: $white
+                text-decoration: underline
+            .flor3
+                position: absolute
+                top: 0
+                right: 0
+                border-top-right-radius: 10px
+                @media(max-width: $lg)
+                    display: none
+            .intro
+                margin-bottom: 50px
+                width: 70%
+                @media(max-width: $sm)
+                    width: 90%
+                    padding: 0 20px
+            .colunas
+                padding: 0 160px
+                @media(max-width: $lg)
+                    padding: 0 50px
+                @media(max-width: $sm)
+                    padding: 0 20px
+            .title
+                color: $white
+                font-weight: 600
+                font-size: calculateRem(40px)
+                line-height: 30px
+                text-transform: uppercase
+                @media(max-width: 400px)
+                    font-size: calculateRem(35px)
+            .p-normal
+                color: $white
+                font-size: calculateRem(28px)
+            .title-col
+                color: $yellow
+                text-transform: uppercase
+                font-style: normal
+        .block-03
+            background-image: none
+            background-color: $green
+        .block-02
+            padding: 50px 0
+            .prod4
+                @media(max-width: $lg)
+                    width: 100%
+                @media(max-width: $md)
+                    width: 220px
+            .info
+                padding: 80px 0
+                @media(max-width: $lg)
+                    padding: 20px 0
+                @media(max-width: $md)
+                    padding: 50px 50px 0
+                @media(max-width: $sm)
+                    padding: 50px 20px 0
+            .title
+                color: $pink
+                font-weight: 600
+                font-size: calculateRem(40px)
+                line-height: 30px
+                text-transform: uppercase
+                @media(max-width: $sm)
+                    font-size: calculateRem(35px)
+            .p-normal
+                color: $grey
+                font-size: calculateRem(28px)
+
+    // <<-------------------->> MATERIAL <<-------------------->>
+    
+    .material
+        padding: 100px 0
+        .intro
+            margin-bottom: 50px
+            width: 70%
+            .title
+                color: $pink
+                font-weight: 600
+                font-size: calculateRem(40px)
+                line-height: 30px
+                text-transform: uppercase
+                margin: 0
+            .p-info
+                color: $grey
+                font-size: calculateRem(28px)
+        .area-cols
+            &:last-child
+                .texts
+                    margin-bottom: 0
+        .texts
+            @media(max-width: $md)
+                padding: 0 100px
+                margin-bottom: 50px
+            @media(max-width: $sm)
+                padding: 0 10px
+            a
+                color: $green
+                font-weight: 600
+                font-size: calculateRem(28px)
+                text-decoration: underline
+                @media(max-width: $lg)
+                    font-size: calculateRem(25px)
+            .p-normal,.p-normal-2
+                color: $grey
+                font-size: calculateRem(28px)
+                height: 170px
+                @media(max-width: $xl)
+                    height: 210px
+                @media(max-width: $lg)
+                    height: 230px
+                    font-size: calculateRem(25px)
+                @media(max-width: $md)
+                    height: auto
+            .p-normal-2
+                font-size: calculateRem(26px)
+            .title-col
+                color: $pink
+                text-transform: uppercase
+                font-style: normal
+                font-weight: 600
+    
+    // <<-------------------->> VENDAS <<-------------------->>
+    .vendas
+        .content
+            background-image: url('../img/back-vendas.png')
+            background-position: center
+            background-size: cover
+            padding: 60px 0
+            padding-left: 70px
+            border-radius: 10px
+            margin-bottom: 100px
+            position: relative
+            @media(max-width: $md)
+                padding: 60px
+            @media(max-width: $sm)
+                padding: 30px
+            .aviao
+                position: absolute
+                right: 100px
+                top: -40px
+                @media(max-width: $md)
+                    display: none
+            .title
+                font-size: calculateRem(40px)
+                font-weight: 600
+                text-transform: uppercase
+                color: $yellow
+            .p-normal
+                color: $white
+                font-size: calculateRem(28px)
+                padding-right: 320px
+                @media(max-width: $md)
+                    padding: 0
