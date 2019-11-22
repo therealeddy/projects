@@ -1,5 +1,5 @@
 # Single Page, desenvolvido em Wordpress
 
-### Link: http://www.wallofdeathbr.com.br/
+### Link: [go](http://www.wallofdeathbr.com.br/){:target="_blank" rel="noopener"}
 
 ![WebView](view.png)
