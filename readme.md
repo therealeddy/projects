@@ -1,8 +1,6 @@
 <h1 align="center">Projetos 👋</h1>
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-</p>
+<br><br>
 
 > Cada pasta é um projeto diferente em que já participei, contendo prints e pequenos trechos do codigo fonte.
 
