@@ -2,7 +2,7 @@
 
 <br><br>
 
-> Cada pasta é um projeto diferente em que já participei, contendo prints e pequenos trechos do codigo fonte.
+Cada pasta é um projeto diferente em que já participei, contendo prints e pequenos trechos do codigo fonte.
 
 - [Boticário Amostras](https://github.com/therealeddy/projects/tree/master/amostras) - Sistema de amostras para o Grupo Boticário, desenvolvido em ReactJS
 
