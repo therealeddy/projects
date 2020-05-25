@@ -4,6 +4,8 @@
 
 Cada pasta é um projeto diferente em que já participei, contendo prints e pequenos trechos do codigo fonte.
 
+<br>
+
 - [Boticário Amostras](https://github.com/therealeddy/projects/tree/master/amostras) - Sistema de amostras para o Grupo Boticário, desenvolvido em ReactJS
 
 - [BBM Extranet](https://github.com/therealeddy/projects/tree/master/bbm-extranet) - Extranet, desenvolvido em ReactJS
