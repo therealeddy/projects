@@ -1,4 +1,4 @@
-<h1 align="center">Projetos 👋</h1>
+<h1 align="center">🚀 Projetos 🚀</h1>
 
 <br><br>
 
@@ -21,6 +21,8 @@
 - [Sistema Fiep](https://github.com/therealeddy/projects/tree/master/sistema-fiep) - Site Sistema Fiep - Educação a Distância, desenvolvido em Wordpress
 
 - [Wall Of Death](https://github.com/therealeddy/projects/tree/master/wall-of-death) - Single Page, desenvolvido em Wordpress
+
+<br><br>
 
 ## Author
 
