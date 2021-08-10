@@ -1,10 +1,20 @@
-<h1 align="center">🚀 Portfolio 🚀</h1>
+<h1 align="center">
+  💻 Portfólio 💻
+</h1>
+
+<br>
+
+<div align="center">
+
+[![documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](#overview)
+
+</div>
 
 <br><br>
 
+## Overview
+  
 Cada pasta é um projeto diferente em que já participei, contendo prints e pequenos trechos do codigo fonte.
-
-<br>
 
 - [Boticário Amostras](https://github.com/therealeddy/projects/tree/master/amostras) - Sistema de amostras para o Grupo Boticário, desenvolvido em ReactJS
 
@@ -30,7 +40,10 @@ Cada pasta é um projeto diferente em que já participei, contendo prints e pequ
 
 👤 **[Eduardo Mauricio](https://github.com/therealeddy)**
 
+## License
+
+MIT © **[License](LICENSE)**
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
